@@ -1,0 +1,1471 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <fileVersion>5</fileVersion>
+    <fileChecksum>3128824303</fileChecksum>
+    <configuration>
+        <name>debug</name>
+        <outputs />
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>ILINK</tool>
+        </forcedrebuild>
+    </configuration>
+    <configuration>
+        <name>flexspi_nor_debug</name>
+        <outputs>
+            <file>$PROJ_DIR$\drivers\fsl_common.c</file>
+            <file>$PROJ_DIR$\drivers\fsl_common.h</file>
+            <file>$PROJ_DIR$\component\uart\fsl_adapter_uart.h</file>
+            <file>$PROJ_DIR$\component\serial_manager\fsl_component_serial_manager.c</file>
+            <file>$PROJ_DIR$\component\lists\fsl_component_generic_list.c</file>
+            <file>$PROJ_DIR$\device\fsl_device_registers.h</file>
+            <file>$PROJ_DIR$\drivers\fsl_cache.c</file>
+            <file>$PROJ_DIR$\component\serial_manager\fsl_component_serial_port_uart.c</file>
+            <file>$PROJ_DIR$\drivers\fsl_cache.h</file>
+            <file>$PROJ_DIR$\drivers\fsl_anatop_ai.h</file>
+            <file>$PROJ_DIR$\device\MIMXRT1176_cm7_features.h</file>
+            <file>$PROJ_DIR$\drivers\fsl_anatop_ai.c</file>
+            <file>$PROJ_DIR$\drivers\fsl_clock.c</file>
+            <file>$PROJ_DIR$\drivers\fsl_clock.h</file>
+            <file>$PROJ_DIR$\CMSIS\mpu_armv7.h</file>
+            <file>$PROJ_DIR$\component\lists\fsl_component_generic_list.h</file>
+            <file>$PROJ_DIR$\component\serial_manager\fsl_component_serial_manager.h</file>
+            <file>$PROJ_DIR$\device\MIMXRT1176_cm7.h</file>
+            <file>$PROJ_DIR$\device\system_MIMXRT1176_cm7.c</file>
+            <file>$PROJ_DIR$\component\serial_manager\fsl_component_serial_port_internal.h</file>
+            <file>$PROJ_DIR$\component\uart\fsl_adapter_lpuart.c</file>
+            <file>$PROJ_DIR$\device\system_MIMXRT1176_cm7.h</file>
+            <file>$PROJ_DIR$\component\serial_manager\fsl_component_serial_port_uart.h</file>
+            <file>$PROJ_DIR$\board\board.c</file>
+            <file>$PROJ_DIR$\board\clock_config.c</file>
+            <file>$PROJ_DIR$\board\clock_config.h</file>
+            <file>$PROJ_DIR$\board\dcd.c</file>
+            <file>$PROJ_DIR$\board\pin_mux.h</file>
+            <file>$PROJ_DIR$\board\dcd.h</file>
+            <file>$PROJ_DIR$\board\pin_mux.c</file>
+            <file>$PROJ_DIR$\CMSIS\cmsis_iccarm.h</file>
+            <file>$PROJ_DIR$\CMSIS\cmsis_version.h</file>
+            <file>$PROJ_DIR$\CMSIS\cmsis_compiler.h</file>
+            <file>$PROJ_DIR$\CMSIS\core_cm7.h</file>
+            <file>$PROJ_DIR$\board\board.h</file>
+            <file>$PROJ_DIR$\drivers\fsl_dcdc.h</file>
+            <file>$PROJ_DIR$\freertos\freertos_kernel\include\task.h</file>
+            <file>$PROJ_DIR$\freertos\freertos_kernel\portable\IAR\ARM_CM4F\port.c</file>
+            <file>$PROJ_DIR$\freertos\freertos_kernel\portable\IAR\ARM_CM4F\portasm.s</file>
+            <file>$PROJ_DIR$\freertos\freertos_kernel\portable\MemMang\heap_4.c</file>
+            <file>$PROJ_DIR$\freertos\freertos_kernel\include\stream_buffer.h</file>
+            <file>$PROJ_DIR$\freertos\freertos_kernel\portable\IAR\ARM_CM4F\portmacro.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+            <file>$PROJ_DIR$\drivers\fsl_gpio.c</file>
+            <file>$PROJ_DIR$\drivers\fsl_pmu.h</file>
+            <file>$PROJ_DIR$\freertos\freertos_kernel\include\projdefs.h</file>
+            <file>$PROJ_DIR$\freertos\freertos_kernel\include\event_groups.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\aarch32\iar_intrinsics_common.h</file>
+            <file>$PROJ_DIR$\drivers\fsl_common_arm.h</file>
+            <file>$PROJ_DIR$\drivers\fsl_common_arm.c</file>
+            <file>$PROJ_DIR$\freertos\freertos_kernel\include\portable.h</file>
+            <file>$PROJ_DIR$\drivers\fsl_lpuart.c</file>
+            <file>$PROJ_DIR$\freertos\freertos_kernel\include\FreeRTOS.h</file>
+            <file>$PROJ_DIR$\freertos\freertos_kernel\include\mpu_wrappers.h</file>
+            <file>$PROJ_DIR$\freertos\freertos_kernel\include\freertos_tasks_c_additions.h</file>
+            <file>$PROJ_DIR$\freertos\freertos_kernel\include\croutine.h</file>
+            <file>$PROJ_DIR$\freertos\freertos_kernel\include\semphr.h</file>
+            <file>$PROJ_DIR$\freertos\freertos_kernel\include\stack_macros.h</file>
+            <file>$PROJ_DIR$\drivers\fsl_gpio.h</file>
+            <file>$PROJ_DIR$\drivers\fsl_iomuxc.h</file>
+            <file>$PROJ_DIR$\drivers\fsl_lpuart.h</file>
+            <file>$PROJ_DIR$\freertos\freertos_kernel\include\queue.h</file>
+            <file>$PROJ_DIR$\drivers\fsl_pmu.c</file>
+            <file>$PROJ_DIR$\freertos\freertos_kernel\include\list.h</file>
+            <file>$PROJ_DIR$\drivers\fsl_dcdc.c</file>
+            <file>$PROJ_DIR$\freertos\freertos_kernel\include\deprecated_definitions.h</file>
+            <file>$PROJ_DIR$\freertos\freertos_kernel\include\timers.h</file>
+            <file>$PROJ_DIR$\utilities\fsl_debug_console.c</file>
+            <file>$PROJ_DIR$\utilities\fsl_debug_console_conf.h</file>
+            <file>$PROJ_DIR$\xip\fsl_flexspi_nor_boot.h</file>
+            <file>$PROJ_DIR$\freertos\freertos_kernel\croutine.c</file>
+            <file>$PROJ_DIR$\utilities\fsl_debug_console.h</file>
+            <file>$PROJ_DIR$\source\freertos_hello.c</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+            <file>$PROJ_DIR$\xip\evkmimxrt1170_flexspi_nor_config.c</file>
+            <file>$PROJ_DIR$\xip\evkmimxrt1170_flexspi_nor_config.h</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug\obj\startup\startup_MIMXRT1176_cm7.o.rsp</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug\obj\startup\startup_MIMXRT1176_cm7.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\aarch32\intrinsics.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\errno.h</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug\list\freertos_hello_cm7.map</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug\freertos_hello_cm7.out</file>
+            <file>$PROJ_DIR$\freertos\freertos_kernel\timers.c</file>
+            <file>$PROJ_DIR$\MIMXRT1176\iar\MIMXRT1176xxxxx_cm7_flexspi_nor.icf</file>
+            <file>$PROJ_DIR$\source\FreeRTOSConfig.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\assert.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug\obj\freertos\freertos_kernel\portable\IAR\ARM_CM4F\portasm.o.rsp</file>
+            <file>$PROJ_DIR$\utilities\fsl_assert.c</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_stdlib.h</file>
+            <file>$PROJ_DIR$\utilities\fsl_str.c</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug\obj\utilities\fsl_str.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug\obj\xip\fsl_flexspi_nor_boot.o</file>
+            <file>$PROJ_DIR$\freertos\freertos_kernel\tasks.c</file>
+            <file>$PROJ_DIR$\xip\fsl_flexspi_nor_boot.c</file>
+            <file>$PROJ_DIR$\freertos\freertos_kernel\queue.c</file>
+            <file>$PROJ_DIR$\startup\startup_MIMXRT1176_cm7.s</file>
+            <file>$PROJ_DIR$\utilities\fsl_str.h</file>
+            <file>$PROJ_DIR$\freertos\freertos_kernel\list.c</file>
+            <file>$PROJ_DIR$\freertos\freertos_kernel\event_groups.c</file>
+            <file>$PROJ_DIR$\freertos\freertos_kernel\stream_buffer.c</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug\obj\drivers\fsl_common_arm.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdarg.h</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug\obj\freertos\freertos_kernel\portable\IAR\ARM_CM4F\port.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug\obj\board\dcd.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug\obj\drivers\fsl_pmu.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug\obj\board\pin_mux.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_float_setup.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug\obj\xip\evkmimxrt1170_flexspi_nor_config.o</file>
+            <file>$TOOLKIT_DIR$\lib\m7M_tlv.a</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug\obj\component\serial_manager\fsl_component_serial_port_uart.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\math.h</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug\obj\utilities\fsl_assert.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug\obj\freertos\freertos_kernel\portable\MemMang\heap_4.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug\obj\freertos\freertos_kernel\portable\IAR\ARM_CM4F\portasm.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug\obj\freertos\freertos_kernel\tasks.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug\obj\drivers\fsl_cache.o</file>
+            <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+            <file>$TOOLKIT_DIR$\inc\c\aarch32\iccarm_builtin.h</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug\obj\component\lists\fsl_component_generic_list.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug\obj\device\system_MIMXRT1176_cm7.o</file>
+            <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug\obj\board\clock_config.o</file>
+            <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug\obj\drivers\fsl_clock.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug\obj\drivers\fsl_gpio.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug\obj\freertos\freertos_kernel\croutine.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug\obj\component\uart\fsl_adapter_lpuart.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug\obj\utilities\fsl_debug_console.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug\obj\freertos\freertos_kernel\timers.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug\obj\freertos\freertos_kernel\queue.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\stddef.h</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug\obj\component\serial_manager\fsl_component_serial_manager.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug\obj\drivers\fsl_lpuart.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug\obj\freertos\freertos_kernel\list.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug\obj\freertos\freertos_kernel\event_groups.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug\obj\drivers\fsl_common.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug\obj\board\board.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug\obj\source\freertos_hello.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug\obj\drivers\fsl_anatop_ai.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug\obj\drivers\fsl_dcdc.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug\obj\freertos\freertos_kernel\stream_buffer.o</file>
+        </outputs>
+        <file>
+            <name>$PROJ_DIR$\drivers\fsl_common.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 144</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 1 87 113 80 109 77 107 110 73 42 117 88 129 91 139 5 17 33 31 32 30 125 14 21 10 48 13</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\component\serial_manager\fsl_component_serial_manager.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 140</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 42 113 80 109 77 107 117 88 16 1 87 110 73 129 91 139 5 17 33 31 32 30 125 14 21 10 48 13 22 2 52 86 45 50 65 41 79 47 53 19</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\component\lists\fsl_component_generic_list.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 126</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 15 1 87 113 80 109 77 107 110 73 42 117 88 129 91 139 5 17 33 31 32 30 125 14 21 10 48 13</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\drivers\fsl_cache.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 123</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 8 1 87 113 80 109 77 107 110 73 42 117 88 129 91 139 5 17 33 31 32 30 125 14 21 10 48 13</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\component\serial_manager\fsl_component_serial_port_uart.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 116</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 16 1 87 113 80 109 77 107 110 73 42 117 88 129 91 139 5 17 33 31 32 30 125 14 21 10 48 13 22 2 52 86 45 50 65 41 79 47 53 19</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\drivers\fsl_anatop_ai.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 147</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 9 1 87 113 80 109 77 107 110 73 42 117 88 129 91 139 5 17 33 31 32 30 125 14 21 10 48 13</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\drivers\fsl_clock.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 132</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 13 1 87 113 80 109 77 107 110 73 42 117 88 129 91 139 5 17 33 31 32 30 125 14 21 10 48 44 9</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\device\system_MIMXRT1176_cm7.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 127</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 73 113 80 109 77 107 5 17 33 31 32 30 125 14 21 10</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\component\uart\fsl_adapter_lpuart.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 135</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 60 1 87 113 80 109 77 107 110 73 42 117 88 129 91 139 5 17 33 31 32 30 125 14 21 10 48 13 2 52 86 45 50 65 41 79 47 53</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\board\board.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 145</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 1 87 113 80 109 77 107 110 73 42 117 88 129 91 139 5 17 33 31 32 30 125 14 21 10 48 13 71 16 22 2 52 86 45 50 65 41 79 47 53 34 25 58 59</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\board\clock_config.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 130</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 25 1 87 113 80 109 77 107 110 73 42 117 88 129 91 139 5 17 33 31 32 30 125 14 21 10 48 13 59 35 44</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\board\dcd.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 106</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 28 73 113 80 109 77 107</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\board\pin_mux.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 111</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 1 87 113 80 109 77 107 110 73 42 117 88 129 91 139 5 17 33 31 32 30 125 14 21 10 48 13 59 27</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 82 83</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\freertos\freertos_kernel\portable\IAR\ARM_CM4F\port.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 105</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 79 125 80 109 77 107 47 52 139 113 117 73 86 45 50 65 41 53 36 63</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\freertos\freertos_kernel\portable\IAR\ARM_CM4F\portasm.s</name>
+            <outputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 121</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 89 86</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\freertos\freertos_kernel\portable\MemMang\heap_4.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 120</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 129 113 80 109 77 107 117 91 52 139 73 86 45 50 65 41 79 125 47 53 36 63</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\drivers\fsl_gpio.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 133</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 58 1 87 113 80 109 77 107 110 73 42 117 88 129 91 139 5 17 33 31 32 30 125 14 21 10 48 13</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\drivers\fsl_common_arm.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 103</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 1 87 113 80 109 77 107 110 73 42 117 88 129 91 139 5 17 33 31 32 30 125 14 21 10 48 13</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\drivers\fsl_lpuart.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 141</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 60 1 87 113 80 109 77 107 110 73 42 117 88 129 91 139 5 17 33 31 32 30 125 14 21 10 48 13</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\drivers\fsl_pmu.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 108</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 44 1 87 113 80 109 77 107 110 73 42 117 88 129 91 139 5 17 33 31 32 30 125 14 21 10 48 13 9</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\drivers\fsl_dcdc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 148</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 35 1 87 113 80 109 77 107 110 73 42 117 88 129 91 139 5 17 33 31 32 30 125 14 21 10 48 13</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\utilities\fsl_debug_console.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 136</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 104 129 113 80 109 77 107 117 91 52 139 73 86 45 50 65 41 79 125 47 53 56 61 36 63 68 1 87 110 42 88 5 17 33 31 32 30 14 21 10 48 13 99 16 22 2 71</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\freertos\freertos_kernel\croutine.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 134</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 52 139 113 80 109 77 107 117 73 86 45 50 65 41 79 125 47 53 36 63 55</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\source\freertos_hello.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 146</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 52 139 113 80 109 77 107 117 73 86 45 50 65 41 79 125 47 53 36 63 61 66 5 17 33 31 32 30 14 21 10 71 1 87 110 42 88 129 91 48 13 16 22 2 27 25 34 58</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\xip\evkmimxrt1170_flexspi_nor_config.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 114</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 75 73 113 80 109 77 107 110 1 87 42 117 88 129 91 139 5 17 33 31 32 30 125 14 21 10 48 13</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\flexspi_nor_debug\freertos_hello_cm7.out</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 82</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 85 145 130 134 106 143 114 146 135 147 119 123 132 144 103 126 140 116 148 136 94 133 141 108 93 120 142 111 105 121 138 78 149 127 122 137 128 124 115 131</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\freertos\freertos_kernel\timers.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 137</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 129 113 80 109 77 107 117 91 52 139 73 86 45 50 65 41 79 125 47 53 36 63 61 66</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\utilities\fsl_assert.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 119</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 1 87 113 80 109 77 107 110 73 42 117 88 129 91 139 5 17 33 31 32 30 125 14 21 10 48 13 71 16 22 2 52 86 45 50 65 41 79 47 53</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\utilities\fsl_str.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 93</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 118 113 80 109 77 107 112 104 129 117 91 81 99 1 87 110 73 42 88 139 5 17 33 31 32 30 125 14 21 10 48 13 68</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\freertos\freertos_kernel\tasks.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 122</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 129 113 80 109 77 107 117 91 42 88 52 139 73 86 45 50 65 41 79 125 47 53 36 63 66 57 54</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\xip\fsl_flexspi_nor_boot.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 94</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 69 73 113 80 109 77 107 34 25 1 87 110 42 117 88 129 91 139 5 17 33 31 32 30 125 14 21 10 48 13 58</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\freertos\freertos_kernel\queue.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 138</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 129 113 80 109 77 107 117 91 42 88 52 139 73 86 45 50 65 41 79 125 47 53 36 63 61</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\startup\startup_MIMXRT1176_cm7.s</name>
+            <outputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 78</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 76</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\freertos\freertos_kernel\list.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 142</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 129 113 80 109 77 107 117 91 52 139 73 86 45 50 65 41 79 125 47 53 63</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\freertos\freertos_kernel\event_groups.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 143</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 129 113 80 109 77 107 117 91 52 139 73 86 45 50 65 41 79 125 47 53 36 63 66 46</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\freertos\freertos_kernel\stream_buffer.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 149</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 73 113 80 109 77 107 42 117 88 52 139 86 45 50 65 41 79 125 47 53 36 63 40</file>
+                </tool>
+            </inputs>
+        </file>
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>ILINK</tool>
+        </forcedrebuild>
+    </configuration>
+    <configuration>
+        <name>flexspi_nor_debug_test</name>
+        <outputs>
+            <file>$PROJ_DIR$\drivers\fsl_common.c</file>
+            <file>$PROJ_DIR$\drivers\fsl_common.h</file>
+            <file>$PROJ_DIR$\component\uart\fsl_adapter_uart.h</file>
+            <file>$PROJ_DIR$\component\serial_manager\fsl_component_serial_manager.c</file>
+            <file>$PROJ_DIR$\component\lists\fsl_component_generic_list.c</file>
+            <file>$PROJ_DIR$\device\fsl_device_registers.h</file>
+            <file>$PROJ_DIR$\drivers\fsl_cache.c</file>
+            <file>$PROJ_DIR$\component\serial_manager\fsl_component_serial_port_uart.c</file>
+            <file>$PROJ_DIR$\drivers\fsl_cache.h</file>
+            <file>$PROJ_DIR$\drivers\fsl_anatop_ai.h</file>
+            <file>$PROJ_DIR$\device\MIMXRT1176_cm7_features.h</file>
+            <file>$PROJ_DIR$\drivers\fsl_anatop_ai.c</file>
+            <file>$PROJ_DIR$\drivers\fsl_clock.c</file>
+            <file>$PROJ_DIR$\drivers\fsl_clock.h</file>
+            <file>$PROJ_DIR$\CMSIS\mpu_armv7.h</file>
+            <file>$PROJ_DIR$\component\lists\fsl_component_generic_list.h</file>
+            <file>$PROJ_DIR$\component\serial_manager\fsl_component_serial_manager.h</file>
+            <file>$PROJ_DIR$\device\MIMXRT1176_cm7.h</file>
+            <file>$PROJ_DIR$\device\system_MIMXRT1176_cm7.c</file>
+            <file>$PROJ_DIR$\component\serial_manager\fsl_component_serial_port_internal.h</file>
+            <file>$PROJ_DIR$\component\uart\fsl_adapter_lpuart.c</file>
+            <file>$PROJ_DIR$\device\system_MIMXRT1176_cm7.h</file>
+            <file>$PROJ_DIR$\component\serial_manager\fsl_component_serial_port_uart.h</file>
+            <file>$PROJ_DIR$\board\board.c</file>
+            <file>$PROJ_DIR$\board\clock_config.c</file>
+            <file>$PROJ_DIR$\board\clock_config.h</file>
+            <file>$PROJ_DIR$\board\dcd.c</file>
+            <file>$PROJ_DIR$\board\pin_mux.h</file>
+            <file>$PROJ_DIR$\board\dcd.h</file>
+            <file>$PROJ_DIR$\board\pin_mux.c</file>
+            <file>$PROJ_DIR$\CMSIS\cmsis_iccarm.h</file>
+            <file>$PROJ_DIR$\CMSIS\cmsis_version.h</file>
+            <file>$PROJ_DIR$\CMSIS\cmsis_compiler.h</file>
+            <file>$PROJ_DIR$\CMSIS\core_cm7.h</file>
+            <file>$PROJ_DIR$\board\board.h</file>
+            <file>$PROJ_DIR$\drivers\fsl_dcdc.h</file>
+            <file>$PROJ_DIR$\freertos\freertos_kernel\include\task.h</file>
+            <file>$PROJ_DIR$\freertos\freertos_kernel\portable\IAR\ARM_CM4F\port.c</file>
+            <file>$PROJ_DIR$\freertos\freertos_kernel\portable\IAR\ARM_CM4F\portasm.s</file>
+            <file>$PROJ_DIR$\freertos\freertos_kernel\portable\MemMang\heap_4.c</file>
+            <file>$PROJ_DIR$\freertos\freertos_kernel\include\stream_buffer.h</file>
+            <file>$PROJ_DIR$\freertos\freertos_kernel\portable\IAR\ARM_CM4F\portmacro.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+            <file>$PROJ_DIR$\drivers\fsl_gpio.c</file>
+            <file>$PROJ_DIR$\drivers\fsl_pmu.h</file>
+            <file>$PROJ_DIR$\freertos\freertos_kernel\include\projdefs.h</file>
+            <file>$PROJ_DIR$\freertos\freertos_kernel\include\event_groups.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\aarch32\iar_intrinsics_common.h</file>
+            <file>$PROJ_DIR$\drivers\fsl_common_arm.h</file>
+            <file>$PROJ_DIR$\drivers\fsl_common_arm.c</file>
+            <file>$PROJ_DIR$\freertos\freertos_kernel\include\portable.h</file>
+            <file>$PROJ_DIR$\drivers\fsl_lpuart.c</file>
+            <file>$PROJ_DIR$\freertos\freertos_kernel\include\FreeRTOS.h</file>
+            <file>$PROJ_DIR$\freertos\freertos_kernel\include\mpu_wrappers.h</file>
+            <file>$PROJ_DIR$\freertos\freertos_kernel\include\freertos_tasks_c_additions.h</file>
+            <file>$PROJ_DIR$\freertos\freertos_kernel\include\croutine.h</file>
+            <file>$PROJ_DIR$\freertos\freertos_kernel\include\semphr.h</file>
+            <file>$PROJ_DIR$\freertos\freertos_kernel\include\stack_macros.h</file>
+            <file>$PROJ_DIR$\drivers\fsl_gpio.h</file>
+            <file>$PROJ_DIR$\drivers\fsl_iomuxc.h</file>
+            <file>$PROJ_DIR$\drivers\fsl_lpuart.h</file>
+            <file>$PROJ_DIR$\freertos\freertos_kernel\include\queue.h</file>
+            <file>$PROJ_DIR$\drivers\fsl_pmu.c</file>
+            <file>$PROJ_DIR$\freertos\freertos_kernel\include\list.h</file>
+            <file>$PROJ_DIR$\drivers\fsl_dcdc.c</file>
+            <file>$PROJ_DIR$\freertos\freertos_kernel\include\deprecated_definitions.h</file>
+            <file>$PROJ_DIR$\freertos\freertos_kernel\include\timers.h</file>
+            <file>$PROJ_DIR$\utilities\fsl_debug_console.c</file>
+            <file>$PROJ_DIR$\utilities\fsl_debug_console_conf.h</file>
+            <file>$PROJ_DIR$\xip\fsl_flexspi_nor_boot.h</file>
+            <file>$PROJ_DIR$\freertos\freertos_kernel\croutine.c</file>
+            <file>$PROJ_DIR$\utilities\fsl_debug_console.h</file>
+            <file>$PROJ_DIR$\source\freertos_hello.c</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+            <file>$PROJ_DIR$\xip\evkmimxrt1170_flexspi_nor_config.c</file>
+            <file>$PROJ_DIR$\xip\evkmimxrt1170_flexspi_nor_config.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\aarch32\intrinsics.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\errno.h</file>
+            <file>$PROJ_DIR$\freertos\freertos_kernel\timers.c</file>
+            <file>$PROJ_DIR$\source\FreeRTOSConfig.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\assert.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+            <file>$PROJ_DIR$\utilities\fsl_assert.c</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_stdlib.h</file>
+            <file>$PROJ_DIR$\utilities\fsl_str.c</file>
+            <file>$PROJ_DIR$\freertos\freertos_kernel\tasks.c</file>
+            <file>$PROJ_DIR$\xip\fsl_flexspi_nor_boot.c</file>
+            <file>$PROJ_DIR$\freertos\freertos_kernel\queue.c</file>
+            <file>$PROJ_DIR$\startup\startup_MIMXRT1176_cm7.s</file>
+            <file>$PROJ_DIR$\utilities\fsl_str.h</file>
+            <file>$PROJ_DIR$\freertos\freertos_kernel\list.c</file>
+            <file>$PROJ_DIR$\freertos\freertos_kernel\event_groups.c</file>
+            <file>$PROJ_DIR$\freertos\freertos_kernel\stream_buffer.c</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdarg.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_float_setup.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+            <file>$TOOLKIT_DIR$\lib\m7M_tlv.a</file>
+            <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\math.h</file>
+            <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+            <file>$TOOLKIT_DIR$\inc\c\aarch32\iccarm_builtin.h</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug_test\Obj\xip\fsl_flexspi_nor_boot.o</file>
+            <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+            <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
+            <file>$TOOLKIT_DIR$\inc\c\stddef.h</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug_test\Obj\freertos\freertos_kernel\portable\MemMang\heap_4.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug_test\Obj\freertos\freertos_kernel\croutine.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug_test\Obj\drivers\fsl_gpio.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug_test\Obj\utilities\fsl_assert.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug_test\Obj\source\freertos_hello.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug_test\Obj\drivers\fsl_dcdc.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug_test\Obj\board\pin_mux.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug_test\Obj\drivers\fsl_common_arm.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug_test\Obj\freertos\freertos_kernel\list.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug_test\Obj\freertos\freertos_kernel\event_groups.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug_test\Obj\drivers\fsl_lpuart.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug_test\Obj\component\serial_manager\fsl_component_serial_manager.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug_test\Obj\startup\startup_MIMXRT1176_cm7.o.rsp</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug_test\Obj\component\serial_manager\fsl_component_serial_port_uart.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug_test\Obj\freertos\freertos_kernel\stream_buffer.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug_test\Obj\xip\evkmimxrt1170_flexspi_nor_config.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug_test\Obj\freertos\freertos_kernel\timers.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug_test\Obj\drivers\fsl_cache.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug_test\Obj\device\system_MIMXRT1176_cm7.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug_test\Obj\board\board.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug_test\Obj\board\clock_config.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug_test\Exe\freertos_hello_cm7.srec</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug_test\Obj\component\lists\fsl_component_generic_list.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug_test\Obj\drivers\fsl_clock.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug_test\Obj\component\uart\fsl_adapter_lpuart.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug_test\Obj\utilities\fsl_debug_console.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug_test\Obj\drivers\fsl_pmu.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug_test\Exe\freertos_hello_cm7.out</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug_test\Obj\drivers\fsl_anatop_ai.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug_test\Obj\freertos\freertos_kernel\queue.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug_test\Obj\board\dcd.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug_test\Obj\utilities\fsl_str.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug_test\Obj\freertos\freertos_kernel\tasks.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug_test\Obj\drivers\fsl_common.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug_test\Obj\freertos\freertos_kernel\portable\IAR\ARM_CM4F\portasm.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug_test\Obj\freertos\freertos_kernel\portable\IAR\ARM_CM4F\port.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug_test\Obj\freertos\freertos_kernel\portable\IAR\ARM_CM4F\portasm.o.rsp</file>
+            <file>$PROJ_DIR$\MIMXRT1176xxxxx_cm7_flexspi_nor_test.icf</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug_test\List\freertos_hello_cm7.map</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug_test\Obj\startup\startup_MIMXRT1176_cm7.o</file>
+        </outputs>
+        <file>
+            <name>$PROJ_DIR$\drivers\fsl_common.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 144</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 1 82 100 78 97 76 96 98 73 42 102 83 108 85 110 5 17 33 31 32 30 105 14 21 10 48 13</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\component\serial_manager\fsl_component_serial_manager.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 122</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 42 100 78 97 76 96 102 83 16 1 82 98 73 108 85 110 5 17 33 31 32 30 105 14 21 10 48 13 22 2 52 81 45 50 65 41 77 47 53 19</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\component\lists\fsl_component_generic_list.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 133</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 15 1 82 100 78 97 76 96 98 73 42 102 83 108 85 110 5 17 33 31 32 30 105 14 21 10 48 13</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\drivers\fsl_cache.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 128</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 8 1 82 100 78 97 76 96 98 73 42 102 83 108 85 110 5 17 33 31 32 30 105 14 21 10 48 13</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\component\serial_manager\fsl_component_serial_port_uart.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 124</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 16 1 82 100 78 97 76 96 98 73 42 102 83 108 85 110 5 17 33 31 32 30 105 14 21 10 48 13 22 2 52 81 45 50 65 41 77 47 53 19</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\drivers\fsl_anatop_ai.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 139</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 9 1 82 100 78 97 76 96 98 73 42 102 83 108 85 110 5 17 33 31 32 30 105 14 21 10 48 13</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\drivers\fsl_clock.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 134</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 13 1 82 100 78 97 76 96 98 73 42 102 83 108 85 110 5 17 33 31 32 30 105 14 21 10 48 44 9</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\device\system_MIMXRT1176_cm7.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 129</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 73 100 78 97 76 96 5 17 33 31 32 30 105 14 21 10</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\component\uart\fsl_adapter_lpuart.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 135</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 60 1 82 100 78 97 76 96 98 73 42 102 83 108 85 110 5 17 33 31 32 30 105 14 21 10 48 13 2 52 81 45 50 65 41 77 47 53</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\board\board.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 130</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 1 82 100 78 97 76 96 98 73 42 102 83 108 85 110 5 17 33 31 32 30 105 14 21 10 48 13 71 16 22 2 52 81 45 50 65 41 77 47 53 34 25 58 59</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\board\clock_config.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 131</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 25 1 82 100 78 97 76 96 98 73 42 102 83 108 85 110 5 17 33 31 32 30 105 14 21 10 48 13 59 35 44</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\board\dcd.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 141</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 28 73 100 78 97 76 96</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\board\pin_mux.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 117</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 1 82 100 78 97 76 96 98 73 42 102 83 108 85 110 5 17 33 31 32 30 105 14 21 10 48 13 59 27</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 138 149</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\freertos\freertos_kernel\portable\IAR\ARM_CM4F\port.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 146</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 77 105 78 97 76 96 47 52 110 100 102 73 81 45 50 65 41 53 36 63</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\freertos\freertos_kernel\portable\IAR\ARM_CM4F\portasm.s</name>
+            <outputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 145</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 147 81</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\freertos\freertos_kernel\portable\MemMang\heap_4.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 111</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 108 100 78 97 76 96 102 85 52 110 73 81 45 50 65 41 77 105 47 53 36 63</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\drivers\fsl_gpio.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 113</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 58 1 82 100 78 97 76 96 98 73 42 102 83 108 85 110 5 17 33 31 32 30 105 14 21 10 48 13</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\drivers\fsl_common_arm.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 118</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 1 82 100 78 97 76 96 98 73 42 102 83 108 85 110 5 17 33 31 32 30 105 14 21 10 48 13</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\drivers\fsl_lpuart.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 121</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 60 1 82 100 78 97 76 96 98 73 42 102 83 108 85 110 5 17 33 31 32 30 105 14 21 10 48 13</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\drivers\fsl_pmu.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 137</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 44 1 82 100 78 97 76 96 98 73 42 102 83 108 85 110 5 17 33 31 32 30 105 14 21 10 48 13 9</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\drivers\fsl_dcdc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 116</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 35 1 82 100 78 97 76 96 98 73 42 102 83 108 85 110 5 17 33 31 32 30 105 14 21 10 48 13</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\utilities\fsl_debug_console.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 136</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 95 108 100 78 97 76 96 102 85 52 110 73 81 45 50 65 41 77 105 47 53 56 61 36 63 68 1 82 98 42 83 5 17 33 31 32 30 14 21 10 48 13 91 16 22 2 71</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\freertos\freertos_kernel\croutine.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 112</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 52 110 100 78 97 76 96 102 73 81 45 50 65 41 77 105 47 53 36 63 55</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\source\freertos_hello.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 115</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 52 110 100 78 97 76 96 102 73 81 45 50 65 41 77 105 47 53 36 63 61 66 5 17 33 31 32 30 14 21 10 71 1 82 98 42 83 108 85 48 13 16 22 2 27 25 34 58</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\xip\evkmimxrt1170_flexspi_nor_config.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 126</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 75 73 100 78 97 76 96 98 1 82 42 102 83 108 85 110 5 17 33 31 32 30 105 14 21 10 48 13</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\freertos\freertos_kernel\timers.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 127</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 108 100 78 97 76 96 102 85 52 110 73 81 45 50 65 41 77 105 47 53 36 63 61 66</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\utilities\fsl_assert.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 114</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 1 82 100 78 97 76 96 98 73 42 102 83 108 85 110 5 17 33 31 32 30 105 14 21 10 48 13 71 16 22 2 52 81 45 50 65 41 77 47 53</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\utilities\fsl_str.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 142</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 103 100 78 97 76 96 99 95 108 102 85 79 91 1 82 98 73 42 83 110 5 17 33 31 32 30 105 14 21 10 48 13 68</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\freertos\freertos_kernel\tasks.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 143</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 108 100 78 97 76 96 102 85 42 83 52 110 73 81 45 50 65 41 77 105 47 53 36 63 66 57 54</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\xip\fsl_flexspi_nor_boot.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 106</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 69 73 100 78 97 76 96 34 25 1 82 98 42 102 83 108 85 110 5 17 33 31 32 30 105 14 21 10 48 13 58</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\freertos\freertos_kernel\queue.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 140</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 108 100 78 97 76 96 102 85 42 83 52 110 73 81 45 50 65 41 77 105 47 53 36 63 61</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\startup\startup_MIMXRT1176_cm7.s</name>
+            <outputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 150</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 123</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\freertos\freertos_kernel\list.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 119</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 108 100 78 97 76 96 102 85 52 110 73 81 45 50 65 41 77 105 47 53 63</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\freertos\freertos_kernel\event_groups.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 120</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 108 100 78 97 76 96 102 85 52 110 73 81 45 50 65 41 77 105 47 53 36 63 66 46</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\freertos\freertos_kernel\stream_buffer.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 125</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 73 100 78 97 76 96 42 102 83 52 110 81 45 50 65 41 77 105 47 53 36 63 40</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\flexspi_nor_debug_test\Exe\freertos_hello_cm7.srec</name>
+            <inputs>
+                <tool>
+                    <name>OBJCOPY</name>
+                    <file> 138</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\flexspi_nor_debug_test\Exe\freertos_hello_cm7.out</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 149</file>
+                </tool>
+                <tool>
+                    <name>OBJCOPY</name>
+                    <file> 132</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 148 130 131 112 141 120 126 115 135 139 114 128 134 144 118 133 122 124 116 136 106 113 121 137 142 111 119 117 146 145 140 150 125 129 143 127 107 104 101 109</file>
+                </tool>
+            </inputs>
+        </file>
+    </configuration>
+    <configuration>
+        <name>flexspi_nor_release</name>
+        <outputs />
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>ILINK</tool>
+        </forcedrebuild>
+    </configuration>
+    <configuration>
+        <name>release</name>
+        <outputs />
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>ILINK</tool>
+        </forcedrebuild>
+    </configuration>
+    <configuration>
+        <name>sdram_debug</name>
+        <outputs />
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>ILINK</tool>
+        </forcedrebuild>
+    </configuration>
+    <configuration>
+        <name>sdram_release</name>
+        <outputs />
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>ILINK</tool>
+        </forcedrebuild>
+    </configuration>
+</project>

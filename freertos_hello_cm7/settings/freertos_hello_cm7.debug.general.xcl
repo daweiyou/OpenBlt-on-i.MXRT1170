@@ -1,0 +1,19 @@
+"C:\Program Files\IAR Systems\Embedded Workbench 9.0\arm\bin\armPROC.dll" 
+
+"C:\Program Files\IAR Systems\Embedded Workbench 9.0\arm\bin\armJET.dll" 
+
+"D:\SDK\SDK\OpenBLT\freertos_hello_cm7\debug\freertos_hello_cm7.out" 
+
+--plugin="C:\Program Files\IAR Systems\Embedded Workbench 9.0\arm\bin\armbat.dll" 
+
+--device_macro="C:\Program Files\IAR Systems\Embedded Workbench 9.0\arm\config\debugger\NXP\iMXRT_1170.dmac" 
+
+--device_macro="C:\Program Files\IAR Systems\Embedded Workbench 9.0\arm\config\debugger\NXP\iMXRT_1170_cm7.dmac" 
+
+--macro="D:\SDK\SDK\OpenBLT\freertos_hello_cm7/evkmimxrt1170/evkmimxrt1170_connect_cm7.mac" 
+
+--flash_loader="C:\Program Files\IAR Systems\Embedded Workbench 9.0\arm\config\flashloader\NXP\FlashIMXRT1170_FlexSPI.board" 
+
+
+
+
